@@ -1,4 +1,4 @@
-public class FixedStackOfStrings {
+public class SimpleStack {
     /**
      * Array Stack Implementation
      * @param int capacity
@@ -11,7 +11,7 @@ public class FixedStackOfStrings {
      * @param int capacity
      *
      */
-    public FixedStackOfStrings(int capacity) {
+    public SimpleStack(int capacity) {
         s = new String[capacity];
     }
 
